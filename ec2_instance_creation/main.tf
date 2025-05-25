@@ -19,5 +19,8 @@ resource "aws_instance" "example" {
 # terraform validate --> Find out error
 # terraform plan     --> Dry run it shows what will do export the attributes
 # terraform apply    --> It will create resources & terraform.tfstate file
+# terraform apply --auto-approve
+# terraform destroy
+
 
 
